@@ -10,7 +10,7 @@ header {
 .swing:hover .bat {
   transform: rotate(-50deg);
   transform-origin: top right;
-  transition: transform 1s ease;
+  transition: transform 0.5s ease;
 }
 .ball {
   width: 70px;
@@ -25,5 +25,5 @@ header {
   bottom: 150px;
   transform: rotate(360deg);
   transition: 3s ease;
-  transition-delay: 1s;
+  transition-delay: 0.5s;
 }
